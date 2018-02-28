@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1519846283 source:i:\code blocks program all\top-90-c-lab-projects-assignment\bubble sort\main.c
+	<stdio.h>
+	<stdlib.h>
+
