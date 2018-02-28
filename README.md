@@ -1,4 +1,4 @@
-# Top-90-C-LabProjects-Assignment
+# Top-C-LabProjects-Assignment
 This repository has a list of cool program that uses different spceial header file and functions of C programming Language.
 I found this list from http://acmsolver.org
 there is reference source at http://www.c.happycodings.com/Beginners_Lab_Assignments/
