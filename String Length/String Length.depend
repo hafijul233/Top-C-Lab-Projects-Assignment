@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1519875440 source:i:\code blocks program all\top-90-c-lab-projects-assignment\string length\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
