@@ -14,6 +14,7 @@ void dectobin(int value){
     value = value / 2;
     index++;
   }
+  printf("Binary value: ");
   index--;
   for(i=index;i>=0;i--){
     printf("%c",output[i]);
@@ -23,18 +24,16 @@ void dectobin(int value){
 
 void dectooct(int value){
   char output[100];
-  int i, index=0;
+  int i, index=0,reminder;
   while(value){
-    if((value%8)!=0){
+    reminder = value%8;
+    reminder+=48;
 
-      output[index] = '1';
-    }
-    else{
-      output[index] = '0';
-    }
-    value = value / 2;
+    output[index] = (char)reminder;
+    value = value / 8;
     index++;
   }
+  printf("Octal value: ");
   index--;
   for(i=index;i>=0;i--){
     printf("%c",output[i]);
@@ -43,7 +42,24 @@ void dectooct(int value){
 
 }
 int dectohex(int value){
+  char output[100];
+  int i, index=0,reminder;
+  while(value){
+    reminder = value%16;
 
+    if(reminder<=9)reminder += 48;
+    else reminder += 55;
+
+    output[index] = (char)reminder;
+    value = value / 16;
+    index++;
+  }
+  printf("Hexa value: ");
+  index--;
+  for(i=index;i>=0;i--){
+    printf("%c",output[i]);
+  }
+  printf("\n");
 
 }
 
