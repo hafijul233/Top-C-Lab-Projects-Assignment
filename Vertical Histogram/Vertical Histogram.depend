@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1520013156 source:i:\code blocks program all\top-90-c-lab-projects-assignment\vertical histogram\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
