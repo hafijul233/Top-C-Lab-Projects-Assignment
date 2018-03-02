@@ -4,7 +4,7 @@
 
 int main()
 {
-    char text[100],temp[100];
+    char text[100],temp[100]="";
     int i,length;
     printf("\tPalindrome String Tester\n");
     printf("\t========================\n");
