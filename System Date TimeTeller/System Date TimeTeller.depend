@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1520547986 source:i:\code blocks program all\top-90-c-lab-projects-assignment\system date timeteller\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
