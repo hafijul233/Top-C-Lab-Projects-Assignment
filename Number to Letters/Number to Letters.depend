@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1520601635 source:i:\code blocks program all\top-90-c-lab-projects-assignment\number to letters\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
